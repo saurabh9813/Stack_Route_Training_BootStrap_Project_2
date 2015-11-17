@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>hackWORLD</title>
+		<meta name="description" content="Lear how to become pro at programming">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+		<div class="container" id="main">
+
+			<div class="navbar navbar-fixed-top">
+				<div class="container" id="nav_bar">
+
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="/"><h1 id="mylogo">hackWORLD</h1></a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="profile.html">Home</a>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Web Design</a>
+									</li>
+
+									<li>
+										<a href="#">Web Development</a>
+									</li>
+
+									<li>
+										<a href="#">Data Structures</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li class="dropdown-header">More Services</li>
+
+									<li>
+										<a href="#">Creating Virus</a>
+									</li>
+
+									<li>
+										<a href="#">Defending Security Perimeter</a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li><!-- end services drop down -->
+
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Domains <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Artificial Intelligence</a>
+									</li>
+
+									<li>
+										<a href="#">Algorithms</a>
+									</li>
+
+									<li>
+										<a href="#">Functional Programming</a>
+									</li>
+
+									<li>
+										<a href="#">Machine Learning</a>
+									</li>
+
+									<li>
+										<a href="#">Dynamic Programming</a>
+									</li>
+
+								</ul><!-- end dropdown-menu -->
+							</li><!-- end domains drop down -->
+
+
+														<li class="dropdown">
+															<a href="#" class="dropdown-toggle" data-toggle="dropdown">Challenges <strong class="caret"></strong></a>
+
+															<ul class="dropdown-menu">
+																<li>
+																	<a href="#">Easy</a>
+																</li>
+
+																<li>
+																	<a href="#">Medium</a>
+																</li>
+
+																<li>
+																	<a href="#">Hard</a>
+																</li>
+
+																<li>
+																	<a href="#">Live Challenges</a>
+																</li>
+
+																<li>
+																	<a href="#">Upcoming Challenges</a>
+																</li>
+
+															</ul><!-- end dropdown-menu -->
+														</li><!-- end challenges drop down -->
+
+														<li class="dropdown">
+															<a href="#" class="dropdown-toggle" data-toggle="dropdown">Languages <strong class="caret"></strong></a>
+
+															<ul class="dropdown-menu">
+																<li>
+																	<a href="#">C/C++</a>
+																</li>
+
+																<li>
+																	<a href="#">Java</a>
+																</li>
+
+																<li>
+																	<a href="#">JavaScript</a>
+																</li>
+
+																<li>
+																	<a href="#">Python</a>
+																</li>
+
+																<li>
+																	<a href="#">Ruby</a>
+																</li>
+
+																<li>
+																	<a href="#">PHP</a>
+																</li>
+
+																<li>
+																	<a href="#">SQL</a>
+																</li>
+
+																<li>
+																	<a href="#">VBScript</a>
+																</li>
+
+															</ul><!-- end dropdown-menu -->
+														</li><!-- end languages drop down -->
+
+
+														<li class="dropdown">
+															<a href="#" class="dropdown-toggle" data-toggle="dropdown">For Companies <strong class="caret"></strong></a>
+
+															<ul class="dropdown-menu">
+																<li>
+																	<a href="#">Organise a Challenge</a>
+																</li>
+
+																<li>
+																	<a href="#">Hire Developers</a>
+																</li>
+
+																<li>
+																	<a href="#">Buy Learning Material</a>
+																</li>
+
+															</ul><!-- end dropdown-menu -->
+														</li><!-- end For Companies drop down -->
+
+						</ul>
+
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+
+
+			<div class="carousel slide" id="myCarousel">
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+					<li data-slide-to="3" data-target="#myCarousel"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Be a Better Programmer</h4>
+							<p>Learn by solving problems. Compete with awesome hackers. Get hired by the best companies in the world!</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Bring out the best developer in you</h4>
+							<p>Participate in coding challenges. Interact with the developer community. Find awesome jobs!</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Master any CS Domain</h4>
+							<p>Several domains to choose from. Think you've mastered a domain? Great. Go ahead and excel in another domain!</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide4">
+						<div class="carousel-caption">
+							<h4>Show your coding skills</h4>
+							<p>Get into the sport of coding. Compete in challenges and see how you rank against your fellow programmers!</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+				</div><!-- carousel-inner -->
+
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+			</div><!-- end myCarousel -->
+
+
+			<div class="row" id="video">
+
+				<div class="col-4 jumbotron" id="jumbo">
+					<h1>why kids should learn to code?</h1>
+					<p><small>Hear how Mark and other CEO's explain how coding has become one of the most powerful techniques in this world. It is the closest thing we have to superpower!<small></p>
+				</div>
+
+					<div class="col-8 embed-responsive embed-responsive-16by9" id="video_learn">
+						<iframe width="757" height="450" src="https://www.youtube.com/embed/STRPsW6IY8k" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+			</div><!-- end jumbo and video row -->
+
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+						<h4>Registered!</h4>
+						<p class="p_high">You just registered for CodeMonk course. Welcome to the world of expertise coding.</p>
+					</div><!-- end alert -->
+
+					<!-- Visible only on small devices -->
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+					</div><!-- end well-small -->
+
+					<div class="well">
+						<div class="page-header">
+							<h1>The CodeMonk Course<small>  A tutorial designed to make you a true Programming master!</small></h1>
+						</div><!-- end page-header -->
+
+						<p class="lead">Learn how to code and build efficient algorithms. Design, develop, test and hack as much you want!</p>
+
+						<a href="" class="btn btn-large btn-primary" id="alertMe">Join CodeMonk course</a>
+						<a href="" class="btn btn-large btn-link">or learn more about CodeMonk</a>
+					</div><!-- end well -->
+
+				</div><!-- end col-12 -->
+			</div><!-- end bigCallout -->
+
+
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2>Learn. Compete. Get hired.</h2>
+					<p class="lead">Cornhole kitsch Williamsburg pug bicycle rights vegan. Neutra food truck occupy kitsch sustainable.</p>
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+
+
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Start Learning</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/badge_html5.jpg" alt="HTML5" class="img-circle">
+
+						<p class="p_high">90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+
+						<a href="#" class="btn btn-primary btn-block">Learn to Code</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Start Competing</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/badge_css3.jpg" alt="CSS3" class="img-circle">
+
+						<p class="p_high">90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+
+						<a href="#" class="btn btn-primary btn-block">Compete with the Best</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Find your dream job</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/badge_bootstrap.jpg" alt="Bootstrap 3" class="img-circle">
+
+						<p class="p_high">90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+
+						<a href="#" class="btn btn-primary btn-block">Search Best Jobs</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+
+
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3>Our location and Office</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Location</a></li>
+							<li><a href="#tab2" data-toggle="tab">Office</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> hack WORLD Office <small>New rock Avenue, Kormangala, Bangalore</small></h4>
+
+								<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
+
+								<p class="p_high">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+								<p class="p_high">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div><!-- end tab-pane -->
+
+							<div class="tab-pane" id="tab2">
+								<h4>Our Office at Kormangala <small>An Awesome place to work</small></h4>
+
+								<img src="images/office_building.jpg" class="thumbnail pull-left" alt="Placeholder image">
+
+								<p class="p_high">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+								<p class="p_high">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+								<hr>
+
+								<a href="#myModal" role="button" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Apply for Job @ hackWorld</a>
+
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+
+												<h4 class="modal-title">Apply for Job @ hackWORLD</h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+												<h4>Why work for us?</h4>
+
+												<p class="p_high">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+												<h4>Popovers in a modal</h4>
+												<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would.">Don't click this button</a>
+
+												<h4>Tooltips in a modal</h4>
+												<a href="" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>!
+
+												<hr>
+
+												<p><small class="text-muted">PS. This form doesn't do anything. Just a heads up.</small></p>
+
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+															<button class="btn btn-success pull-right" type="submit">Send!</button>
+														</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+											</div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+
+				<div class="col-sm-6">
+					<h3>How Coding can help you?</h3>
+					<p class="p_high">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					<h4>Why just use technology? When you can create it!</h4>
+
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Build Web Pages</h4>
+							<p class="list-group-item-text">Kale or borecole is a vegetable with green or purple leaves, in which the central leaves do not form a head.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Build Apps</h4>
+							<p class="list-group-item-text">The carrot is a root vegetable, usually orange in colour, though purple, red, white, and yellow varieties exist. It has a crisp texture when fresh.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Build Games</h4>
+							<p class="list-group-item-text">Steel-cut oats are whole grain groats which have been cut into pieces. They are commonly used in Scotland and Ireland to make porridge.</p>
+						</a>
+					</div><!-- list-group -->
+
+					<h5>Learning to code is fun and easy with hackWORLD</h5>
+					<p class="p_high">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!-- end col-sm-6 -->
+			</div><!-- end moreInfo -->
+
+			<hr>
+
+			<div class="row" id="moreCourses">
+				<div class="col-12">
+					<h3>Some of our Outstanding courses</h3>
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_psd2html5.jpg" alt="PSD to HTML5 & CSS3">
+
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>39</div>
+
+								<div class="caption">
+									<h2>Ruby</h2>
+
+									<p class="p_high">Master your Ruby skills and increase your Rails street cred by learning to build dynamic, sustainable applications for the web.</p>
+
+									<p><a href="#" class="btn btn-primary btn-small" >Take course</a> <a href="#" class="btn btn-small btn-link">Learn more</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_webhosting101.jpg" alt="Web Hosting 101">
+
+								<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> Free</div>
+
+								<div class="caption">
+									<h2>JavaScript</h2>
+
+									<p class="p_high">Spend some time with this powerful scripting language and learn to build lightweight applications with enhanced user interfaces.</p>
+
+									<p><a href="#" class="btn btn-primary btn-small">Take course</a> <a href="#" class="btn btn-small btn-link">Learn more</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+					</div><!-- end row -->
+				</div><!-- end col-12 -->
+			</div><!-- end moreCourses -->
+		</div><!-- end container -->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+					<h6>Copyright &copy; 2015 All Rights Reserved by hack WORLD Inc. </h6>
+					</div><!-- end col-sm-2 -->
+
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div><!-- end col-sm-4 -->
+
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+
+					<div class="col-sm-2">
+						<h6>Cheers from hackWORLD team!<span id="thumbsup" class="glyphicon glyphicon-thumbs-up">  </span></h5>
+						<h6>Bring out the best Developer in you!</h6>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer><!-- end footer -->
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
